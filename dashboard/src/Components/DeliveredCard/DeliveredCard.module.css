@@ -1,0 +1,48 @@
+@media screen and (max-width: 700px){
+    .wrapper{
+        width: 25vw;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: #21253d;
+    }
+    }
+@media screen and (min-width: 700px){
+.wrapper{
+    min-width: 9vw;
+    /* max-width: 15vw; */
+    /* width: 50%; */
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #21253d;
+}
+}
+.iconWrapper{
+    width: 35px;
+    height: 35px;
+    background-color: rgb(62, 144, 114);
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    font-size: x-small;
+    display: flex;
+    justify-content: start;
+}
+.cardBottomWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.count{
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+}
+.percentageUp{
+    font-weight: bold;
+    color: rgb(162, 89, 50);
+}

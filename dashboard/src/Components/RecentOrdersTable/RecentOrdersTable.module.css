@@ -1,0 +1,64 @@
+@media screen and (max-width :700px) {
+    .tableWrapper{
+        background-color: #21253d;
+        max-width: 75vw;
+        /* max-width: 60vw; */
+        /* margin: 20px; */
+        /* padding: 20px; */
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    table, td, th {
+        border-bottom: 1px solid;
+        padding: 2px;
+        text-align: left;
+    } 
+}
+@media screen and (min-width :700px) {
+    .tableWrapper{
+        background-color: #21253d;
+        min-width: 51vw;
+        /* max-width: 60vw; */
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    table, td, th {
+        border-bottom: 1px solid;
+        padding: 20px;
+        text-align: left;
+    } 
+}
+.hrStyle{
+    width: 100%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+button{
+    border: 0px;
+}
+.btnGreen{
+    color: aliceblue;
+    background-color: rgb(67, 126, 96);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0%;
+    border: 0%;
+}
+.btnRed{
+    color: aliceblue;
+    background-color: rgb(159, 74, 57);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0%;
+    border: 0%;
+}

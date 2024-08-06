@@ -1,0 +1,15 @@
+body{
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: rgb(14, 14, 14);
+  border-radius: 50px;
+  color: white;
+  overflow-x: hidden;
+  margin-left: 0%;
+  box-sizing: border-box;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}

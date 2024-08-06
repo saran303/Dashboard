@@ -1,0 +1,10 @@
+.activityWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.dropdown{
+    background-color: gray;
+    color: white;
+    border-radius: 10%;
+    margin: 0px;
+}

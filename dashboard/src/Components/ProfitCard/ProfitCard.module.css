@@ -1,0 +1,53 @@
+@media screen and (max-width: 700px){
+    .wrapper{
+        width: 65vw;
+        background-color: #21253d;
+        color: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        /* maxWidth: 345, */
+    }
+    }
+@media screen and (min-width: 700px){
+.wrapper{
+    min-width: 36vw;
+    background-color: #21253d;
+    color: white;
+    margin: 20px;
+    margin-left: 0px;
+    padding: 20px;
+    border-radius: 10px;
+}
+}
+.para{
+    font-size: x-small;
+    display: flex;
+    justify-content: start;
+}
+.count{
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+}
+.percentageUp{
+    font-weight: bold;
+    color: rgb(62, 144, 114);
+    display: flex;
+    justify-content: start;
+}
+.imgChart{
+    width: 100px;
+    /* border-radius: 50%; */
+}
+.profitWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.profitChartWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

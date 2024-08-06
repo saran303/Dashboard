@@ -1,0 +1,130 @@
+.App {
+  margin: 0px;
+}
+.Navbar{
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.BodyWrapper{
+  display: flex;
+}
+@media screen and (min-width: 701px){
+  .allCardsWrapper{
+    display: flex;
+  }
+  .cardWrapper{
+    display: flex;
+    height: auto;
+    /* width: 51.9vw; */
+    /* padding: 20px; */
+    flex: 2;
+    padding-bottom: 0%;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+  }
+  .profitHold{
+    position: relative;
+    min-width: 42vw;
+    /* flex: 1; */
+    float: right;
+    justify-content: flex-end;
+  }
+}
+@media screen and (min-width: 700px){
+  .simpleViewStyle{
+    display: flex;
+  }
+  .graphHold{
+    height: 30vh;
+    flex: 2;
+  }
+  .ActivityCardWrapper{
+    /* display: flex; */
+    height: auto;
+    min-width: 51vw;
+    /* flex: 2; */
+    padding: 20px;
+    padding-bottom: 0%;
+    background-color: #21253d;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .ActivityGraphWrapper{
+    /* display: flex; */
+    height: 21vh;
+    min-width: 51vw;
+    /* flex: 1; */
+    padding: 20px;
+    padding-top: 0px;
+    background-color: #21253d;
+    margin: 20px;
+    margin-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .simpleHold{
+    position: relative;
+    min-width: 30vw;
+    /* flex: 2; */
+  }
+}
+@media screen and (max-width: 700px){
+  .simpleViewStyle{
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 10px; */
+  }
+  .graphHold{
+    max-height: 50vh;
+    width: 80vw;
+  }
+  .ActivityCardWrapper{
+    /* display: flex; */
+    height: auto;
+    /* width: 48vw; */
+    padding: 20px;
+    padding-bottom: 0%;
+    background-color: #21253d;
+    margin: 20px;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .ActivityGraphWrapper{
+    /* display: flex; */
+    height: 28vh;
+    /* width: 48vw; */
+    padding: 20px;
+    padding-top: 0px;
+    background-color: #21253d;
+    margin: 20px;
+    margin-top: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+}
+@media screen and (max-width: 700px){
+  .lastRow{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 700px){
+  .lastRow{
+    display: flex;
+  }
+  /* .tableStyle{
+    flex: 2;
+  }
+  .feedbackHold{
+    flex: 1;
+  } */
+}
+.feedbackHold{
+  width: 30vw;
+}

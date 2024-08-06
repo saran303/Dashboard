@@ -1,0 +1,68 @@
+@media screen and (max-width: 700px){
+    .wrapper{
+        max-width: 65vw;
+    }
+    }
+@media screen and (min-width: 700px){
+.wrapper{
+    min-width: 38vw;
+    max-width: 38vw;
+    height: 30vh;
+}
+}
+.simpleWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.symbolTextWrapper{
+    display: flex;
+    justify-content: center;
+}
+.symbolWrapper{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(94, 51, 51);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.foodWrapper{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(69, 61, 135);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.menusWrapper{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(56, 118, 98);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.nameStyle{
+    margin: 10px;
+    padding-left: 10px;
+}
+.arrowWrapper{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}

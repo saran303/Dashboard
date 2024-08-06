@@ -1,0 +1,36 @@
+
+@media screen and (max-width: 700px){
+    .cardsWrapper{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+    .fristWrapper{
+        display: flex;
+        /* min-width: 25vw; */
+        /* margin-right: 0px; */
+    }
+    .secWrapper{
+        display: flex;
+        /* min-width: 25vw; */
+        /* margin-left: 0px; */
+    }
+}
+@media screen and (min-width: 700px){
+    .fristWrapper{
+        display: flex;
+        /* min-width: 50%; */
+        /* margin-right: 0px; */
+    }
+    .secWrapper{
+        display: flex;
+        /* min-width: 50%; */
+        /* margin-left: 0px; */
+    }
+    .cardsWrapper{
+        display: flex;
+        position: relative;
+        /* min-width: 50vw; */
+        /* width: 48vw; */
+    }
+}
